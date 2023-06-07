@@ -1,0 +1,11 @@
+app = "prae-discord-bot-dev"
+
+#[env]
+#TOKEN = ""
+#DISCORD_BOT_TOKEN = ""
+#NODE_ENV = "production"
+#
+#[[services]]
+#internal_port = 8080
+#protocol = "tcp"
+#script = "docker-entrypoint.sh node index.js"
