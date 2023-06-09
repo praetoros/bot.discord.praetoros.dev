@@ -25,6 +25,7 @@ for (const folder of commandFolders) {
 
 client.once(Events.ClientReady, () => {
     console.log('Ready!');
+    require('./deploy-commands.js');
 });
 
 client.on(Events.InteractionCreate, async interaction => {
